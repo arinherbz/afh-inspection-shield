@@ -1,0 +1,57 @@
+{
+  "name": "afh-inspection-shield",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Inspection readiness and caregiver management system for Washington State Adult Family Homes",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint src --ext js,jsx --fix"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@supabase/supabase-js": "^2.39.3",
+    "@tanstack/react-query": "^5.17.19",
+    "date-fns": "^3.2.0",
+    "lucide-react": "^0.312.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.3",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.21.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.1.2",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "jsdom": "^23.2.0",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.11",
+    "vitest": "^1.2.1"
+  },
+  "keywords": [
+    "adult-family-home",
+    "healthcare",
+    "inspection",
+    "dshs",
+    "washington-state",
+    "caregiver",
+    "medication-management"
+  ],
+  "author": "AFH Inspection Shield",
+  "license": "PROPRIETARY"
+}
